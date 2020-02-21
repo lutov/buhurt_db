@@ -1173,7 +1173,6 @@ INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1360, 496, 1360
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1361, 496, 1361);
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1362, 496, 1362);
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1363, 496, 1363);
-INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1364, 497, 1364);
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1365, 498, 1365);
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1366, 499, 1419);
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1367, 499, 1420);
@@ -1349,7 +1348,6 @@ INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1588, 532, 1641
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1589, 532, 1642);
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1590, 532, 1643);
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1591, 532, 1644);
-INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1592, 532, 1645);
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1593, 532, 1646);
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1594, 532, 1647);
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1595, 533, 1648);
@@ -3163,3 +3161,8 @@ INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (4132, 259, 481)
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (4133, 259, 314);
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (4134, 259, 169);
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (4135, 5317, 461);
+INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (4136, 5841, 360);
+INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (4137, 5842, 1573);
+INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (4138, 5843, 1574);
+INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (4139, 532, 1645);
+INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (4140, 497, 1364);

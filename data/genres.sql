@@ -17,7 +17,7 @@ INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) V
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (17, 'Аниме', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (18, 'Артхаус', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (19, 'Биография', '', '', 'Film');
-INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (20, 'Боевики', '', '', 'Film');
+INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (20, 'Экшены', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (22, 'Военные фильмы', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (23, 'Детективы', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (24, 'Документальные', '', '', 'Film');
@@ -48,7 +48,7 @@ INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) V
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (56, 'Интеллектуальные игры', '', '', 'Game');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (57, 'Логические игры', '', '', 'Game');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (58, 'Обучающие и развивающие игры', '', '', 'Game');
-INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (59, 'Приключения', '', '', 'Game');
+INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (59, 'Квесты', '', '', 'Game');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (60, 'Ролевые игры', '', '', 'Game');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (61, 'Симуляторы', '', '', 'Game');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (62, 'Спортивные игры', '', '', 'Game');
@@ -59,7 +59,6 @@ INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) V
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (68, 'Нуар', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (70, 'Фэнтези', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (71, 'Коллекционные карточные игры', '', '', 'Game');
-INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (74, 'Конспирология', '', '', 'Book');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (76, 'Файтинги', '', '', 'Game');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (77, 'Инди', '', '', 'Game');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (78, 'Трэш', '', '', 'Film');
@@ -68,7 +67,6 @@ INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) V
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (82, 'Хорроры', '', '', 'Game');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (83, 'Антиутопии', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (84, 'TBS', '', '', 'Game');
-INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (86, 'Киберпанк', '', '', 'Book');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (87, 'Беллетристика', '', '', 'Book');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (88, 'Биографии', '', '', 'Book');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (89, 'Сетевые игры', '', '', 'Game');

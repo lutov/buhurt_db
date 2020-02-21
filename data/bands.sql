@@ -824,3 +824,6 @@ INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `update
 INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (5838, 'The Cure', NULL, NULL, '2019-7-29 10:22:14', '2019-7-29 10:22:14', NULL);
 INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (5839, 'Порнофильмы', NULL, NULL, '2019-8-14 12:36:12', '2019-8-14 12:36:12', NULL);
 INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (5840, 'Biting Elbows', NULL, NULL, '2019-8-14 12:43:57', '2019-8-14 12:43:57', NULL);
+INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (5841, '3 Doors Down', NULL, NULL, '2020-1-16 15:34:24', '2020-1-16 15:34:24', NULL);
+INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (5842, '69 Chambers', NULL, NULL, '2020-1-16 15:41:11', '2020-1-16 15:41:11', NULL);
+INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (5843, 'Anacondaz', NULL, NULL, '2020-1-16 15:48:22', '2020-1-16 15:48:22', NULL);

@@ -16,7 +16,7 @@ INDEX `book_id` (`film_id`) USING BTREE
 )
 ENGINE=InnoDB
 DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
-AUTO_INCREMENT=41957
+AUTO_INCREMENT=43752
 
 ;
 
@@ -63,7 +63,7 @@ PRIMARY KEY (`id`)
 )
 ENGINE=InnoDB
 DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
-AUTO_INCREMENT=5841
+AUTO_INCREMENT=5844
 
 ;
 
@@ -83,7 +83,7 @@ INDEX `book_id` (`album_id`) USING BTREE
 )
 ENGINE=InnoDB
 DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
-AUTO_INCREMENT=4136
+AUTO_INCREMENT=4141
 
 ;
 
@@ -130,7 +130,7 @@ INDEX `verified` (`verified`) USING BTREE
 )
 ENGINE=InnoDB
 DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
-AUTO_INCREMENT=19746
+AUTO_INCREMENT=19747
 
 ;
 
@@ -149,7 +149,7 @@ PRIMARY KEY (`id`)
 )
 ENGINE=InnoDB
 DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
-AUTO_INCREMENT=1718
+AUTO_INCREMENT=1749
 
 ;
 
@@ -185,7 +185,7 @@ INDEX `film_id` (`film_id`) USING BTREE
 )
 ENGINE=InnoDB
 DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
-AUTO_INCREMENT=19627
+AUTO_INCREMENT=20143
 
 ;
 
@@ -205,7 +205,7 @@ INDEX `book_id` (`game_id`) USING BTREE
 )
 ENGINE=InnoDB
 DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
-AUTO_INCREMENT=5714
+AUTO_INCREMENT=5871
 
 ;
 
@@ -225,7 +225,7 @@ INDEX `book_id` (`film_id`) USING BTREE
 )
 ENGINE=InnoDB
 DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
-AUTO_INCREMENT=17002
+AUTO_INCREMENT=17511
 
 ;
 
@@ -251,7 +251,7 @@ INDEX `created_at` (`created_at`) USING BTREE
 )
 ENGINE=InnoDB
 DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
-AUTO_INCREMENT=133466
+AUTO_INCREMENT=135769
 
 ;
 
@@ -272,7 +272,7 @@ INDEX `relation_id` (`relation_id`) USING BTREE
 )
 ENGINE=InnoDB
 DEFAULT CHARACTER SET=utf8mb4 COLLATE=utf8mb4_general_ci
-AUTO_INCREMENT=27001
+AUTO_INCREMENT=28095
 
 ;
 
@@ -301,7 +301,7 @@ INDEX `verified` (`verified`) USING BTREE
 )
 ENGINE=InnoDB
 DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
-AUTO_INCREMENT=9212
+AUTO_INCREMENT=9348
 
 ;
 
@@ -364,7 +364,7 @@ PRIMARY KEY (`id`)
 )
 ENGINE=InnoDB
 DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
-AUTO_INCREMENT=32085
+AUTO_INCREMENT=32971
 
 ;
 
@@ -399,7 +399,7 @@ INDEX `book_id` (`game_id`) USING BTREE
 )
 ENGINE=InnoDB
 DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
-AUTO_INCREMENT=29947
+AUTO_INCREMENT=30316
 
 ;
 
@@ -419,7 +419,7 @@ INDEX `book_id` (`film_id`) USING BTREE
 )
 ENGINE=InnoDB
 DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
-AUTO_INCREMENT=20184
+AUTO_INCREMENT=21019
 
 ;
 
@@ -437,7 +437,7 @@ INDEX `book_id` (`book_id`) USING BTREE
 )
 ENGINE=InnoDB
 DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
-AUTO_INCREMENT=4332
+AUTO_INCREMENT=4500
 
 ;
 
@@ -457,7 +457,7 @@ INDEX `book_id` (`game_id`) USING BTREE
 )
 ENGINE=InnoDB
 DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
-AUTO_INCREMENT=6582
+AUTO_INCREMENT=6777
 
 ;
 
@@ -493,7 +493,7 @@ INDEX `book_id` (`film_id`) USING BTREE
 )
 ENGINE=InnoDB
 DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
-AUTO_INCREMENT=24767
+AUTO_INCREMENT=25566
 
 ;
 
@@ -506,12 +506,14 @@ CREATE TABLE `sections` (
 `name`  varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
 `alt_name`  varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
 `type`  varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`parent_id`  int(10) UNSIGNED NULL DEFAULT NULL ,
+`route`  varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL ,
 PRIMARY KEY (`id`),
 INDEX `type` (`type`) USING BTREE 
 )
 ENGINE=InnoDB
 DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
-AUTO_INCREMENT=19
+AUTO_INCREMENT=27
 
 ;
 
@@ -532,7 +534,7 @@ INDEX `album_id` (`album_id`) USING BTREE
 )
 ENGINE=MyISAM
 DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
-AUTO_INCREMENT=11848
+AUTO_INCREMENT=11901
 
 ;
 
@@ -552,7 +554,7 @@ INDEX `book_id` (`book_id`) USING BTREE
 )
 ENGINE=InnoDB
 DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
-AUTO_INCREMENT=19594
+AUTO_INCREMENT=19788
 
 ;
 
@@ -571,14 +573,14 @@ INDEX `person_id` (`person_id`) USING BTREE
 )
 ENGINE=MyISAM
 DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
-AUTO_INCREMENT=5226
+AUTO_INCREMENT=5235
 
 ;
 
 -- ----------------------------
 -- Auto increment value for `actors_films`
 -- ----------------------------
-ALTER TABLE `actors_films` AUTO_INCREMENT=41957;
+ALTER TABLE `actors_films` AUTO_INCREMENT=43752;
 
 -- ----------------------------
 -- Auto increment value for `albums`
@@ -588,12 +590,12 @@ ALTER TABLE `albums` AUTO_INCREMENT=3320;
 -- ----------------------------
 -- Auto increment value for `bands`
 -- ----------------------------
-ALTER TABLE `bands` AUTO_INCREMENT=5841;
+ALTER TABLE `bands` AUTO_INCREMENT=5844;
 
 -- ----------------------------
 -- Auto increment value for `bands_albums`
 -- ----------------------------
-ALTER TABLE `bands_albums` AUTO_INCREMENT=4136;
+ALTER TABLE `bands_albums` AUTO_INCREMENT=4141;
 
 -- ----------------------------
 -- Auto increment value for `bands_persons`
@@ -603,12 +605,12 @@ ALTER TABLE `bands_persons` AUTO_INCREMENT=1;
 -- ----------------------------
 -- Auto increment value for `books`
 -- ----------------------------
-ALTER TABLE `books` AUTO_INCREMENT=19746;
+ALTER TABLE `books` AUTO_INCREMENT=19747;
 
 -- ----------------------------
 -- Auto increment value for `companies`
 -- ----------------------------
-ALTER TABLE `companies` AUTO_INCREMENT=1718;
+ALTER TABLE `companies` AUTO_INCREMENT=1749;
 
 -- ----------------------------
 -- Auto increment value for `countries`
@@ -618,32 +620,32 @@ ALTER TABLE `countries` AUTO_INCREMENT=66;
 -- ----------------------------
 -- Auto increment value for `countries_films`
 -- ----------------------------
-ALTER TABLE `countries_films` AUTO_INCREMENT=19627;
+ALTER TABLE `countries_films` AUTO_INCREMENT=20143;
 
 -- ----------------------------
 -- Auto increment value for `developers_games`
 -- ----------------------------
-ALTER TABLE `developers_games` AUTO_INCREMENT=5714;
+ALTER TABLE `developers_games` AUTO_INCREMENT=5871;
 
 -- ----------------------------
 -- Auto increment value for `directors_films`
 -- ----------------------------
-ALTER TABLE `directors_films` AUTO_INCREMENT=17002;
+ALTER TABLE `directors_films` AUTO_INCREMENT=17511;
 
 -- ----------------------------
 -- Auto increment value for `elements_genres`
 -- ----------------------------
-ALTER TABLE `elements_genres` AUTO_INCREMENT=133466;
+ALTER TABLE `elements_genres` AUTO_INCREMENT=135769;
 
 -- ----------------------------
 -- Auto increment value for `elements_relations`
 -- ----------------------------
-ALTER TABLE `elements_relations` AUTO_INCREMENT=27001;
+ALTER TABLE `elements_relations` AUTO_INCREMENT=28095;
 
 -- ----------------------------
 -- Auto increment value for `films`
 -- ----------------------------
-ALTER TABLE `films` AUTO_INCREMENT=9212;
+ALTER TABLE `films` AUTO_INCREMENT=9348;
 
 -- ----------------------------
 -- Auto increment value for `games`
@@ -658,7 +660,7 @@ ALTER TABLE `genres` AUTO_INCREMENT=174;
 -- ----------------------------
 -- Auto increment value for `persons`
 -- ----------------------------
-ALTER TABLE `persons` AUTO_INCREMENT=32085;
+ALTER TABLE `persons` AUTO_INCREMENT=32971;
 
 -- ----------------------------
 -- Auto increment value for `platforms`
@@ -668,22 +670,22 @@ ALTER TABLE `platforms` AUTO_INCREMENT=42;
 -- ----------------------------
 -- Auto increment value for `platforms_games`
 -- ----------------------------
-ALTER TABLE `platforms_games` AUTO_INCREMENT=29947;
+ALTER TABLE `platforms_games` AUTO_INCREMENT=30316;
 
 -- ----------------------------
 -- Auto increment value for `producers_films`
 -- ----------------------------
-ALTER TABLE `producers_films` AUTO_INCREMENT=20184;
+ALTER TABLE `producers_films` AUTO_INCREMENT=21019;
 
 -- ----------------------------
 -- Auto increment value for `publishers_books`
 -- ----------------------------
-ALTER TABLE `publishers_books` AUTO_INCREMENT=4332;
+ALTER TABLE `publishers_books` AUTO_INCREMENT=4500;
 
 -- ----------------------------
 -- Auto increment value for `publishers_games`
 -- ----------------------------
-ALTER TABLE `publishers_games` AUTO_INCREMENT=6582;
+ALTER TABLE `publishers_games` AUTO_INCREMENT=6777;
 
 -- ----------------------------
 -- Auto increment value for `relations`
@@ -693,24 +695,24 @@ ALTER TABLE `relations` AUTO_INCREMENT=9;
 -- ----------------------------
 -- Auto increment value for `screenwriters_films`
 -- ----------------------------
-ALTER TABLE `screenwriters_films` AUTO_INCREMENT=24767;
+ALTER TABLE `screenwriters_films` AUTO_INCREMENT=25566;
 
 -- ----------------------------
 -- Auto increment value for `sections`
 -- ----------------------------
-ALTER TABLE `sections` AUTO_INCREMENT=19;
+ALTER TABLE `sections` AUTO_INCREMENT=27;
 
 -- ----------------------------
 -- Auto increment value for `tracks`
 -- ----------------------------
-ALTER TABLE `tracks` AUTO_INCREMENT=11848;
+ALTER TABLE `tracks` AUTO_INCREMENT=11901;
 
 -- ----------------------------
 -- Auto increment value for `writers_books`
 -- ----------------------------
-ALTER TABLE `writers_books` AUTO_INCREMENT=19594;
+ALTER TABLE `writers_books` AUTO_INCREMENT=19788;
 
 -- ----------------------------
 -- Auto increment value for `writers_genres`
 -- ----------------------------
-ALTER TABLE `writers_genres` AUTO_INCREMENT=5226;
+ALTER TABLE `writers_genres` AUTO_INCREMENT=5235;
