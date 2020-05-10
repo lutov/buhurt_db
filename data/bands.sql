@@ -2,6 +2,7 @@ INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `update
 INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (2, '60mm', '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', '');
 INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (3, '7000$', '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', '');
 INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (4, '7раса', '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', '');
+INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (5, 'Vincent Gillioz', NULL, '', '2020-3-28 10:28:55', '2020-3-28 10:28:55', NULL);
 INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (6, 'Adam Lambert', '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', '');
 INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (7, 'Adema', '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', '');
 INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (8, 'Aerosmith', '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', '');
@@ -40,6 +41,7 @@ INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `update
 INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (41, 'Buccc ', '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', '');
 INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (42, 'Bullets and Octane', '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', '');
 INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (43, 'Catharsis', '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', '');
+INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (44, 'Social Distortion', NULL, '', '2020-4-1 12:04:43', '2020-4-1 12:04:43', NULL);
 INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (46, 'Chris Isaak', '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', '');
 INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (47, 'Citadel', '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', '');
 INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (48, 'Clawfinger', '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', '');
@@ -172,7 +174,7 @@ INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `update
 INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (176, 'Stereopony', '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', '');
 INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (177, 'Stone Sour', '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', '');
 INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (178, 'The Stooges', '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', '');
-INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (179, 'The String Quartet', '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', '');
+INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (179, 'Vitamin String Quartet', '', '', '0000-0-0 00:00:00', '2020-3-28 10:29:24', '');
 INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (180, 'Sunburst', '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', '');
 INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (181, 'Susan Boyle', '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', '');
 INSERT INTO `bands` (`id`, `name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (182, 'Susumu Hirasawa', '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', '');

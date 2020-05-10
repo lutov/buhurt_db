@@ -4,10 +4,8 @@ INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) V
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (4, 'Любовный роман', '', '', 'Book');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (5, 'Мистика, ужасы, триллеры', '', '', 'Book');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (6, 'Современная проза', '', '', 'Book');
-INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (7, 'Фантастика и фэнтези', '', 'Научная фантастика (НФ) — жанр в литературе, кино и других видах искусства, одна из разновидностей фантастики. Научная фантастика основывается на фантастических допущениях (вымысле) в области науки, включая как точные, так и естественные, и гуманитарные науки. Научная фантастика описывает вымышленные технологии и научные открытия, контакты с нечеловеческим разумом, возможное будущее или альтернативный ход истории, а также влияние этих допущений на человеческие общество и личность. Действие научной фантастики часто происходит в будущем, что роднит этот жанр с футурологией.\r\n\r\nФэнтези (от англ. fantasy — «фантазия») — жанр фантастической литературы, основанный на использовании мифологических и сказочных мотивов. В современном виде сформировался в начале XX века. С середины века огромное влияние на формирование современного облика фэнтези оказал Джон Рональд Руэл Толкин.\r\n\r\nПроизведения фэнтези чаще всего напоминают историко-приключенческий роман, действие которого происходит в вымышленном мире, близком к реальному Средневековью, герои которого сталкиваются со сверхъестественными явлениями и существами. Зачастую фэнтези построено на основе архетипических сюжетов.\r\n\r\nВ отличие от научной фантастики, фэнтези не стремится объяснить мир, в котором происходит действие произведения, с точки зрения науки. Сам этот мир существует гипотетически, часто его местоположение относительно нашей реальности никак не оговаривается: то ли это параллельный мир, то ли другая планета, а его физические законы могут отличаться от земных. В таком мире может быть реальным существование богов, колдовства, мифических существ (драконы, эльфы, гномы, тролли), привидений и любых других фантастических сущностей. В то же время принципиальное отличие чудес фэнтези от их сказочных аналогов в том, что они являются нормой описываемого мира и действуют системно, как законы природы.', 'Book');
+INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (7, 'Фантастика и фэнтези', '', 'Научная фантастика основывается на фантастических допущениях (вымысле) в области науки, включая как точные, так и естественные, и гуманитарные науки. Научная фантастика описывает вымышленные технологии и научные открытия, контакты с нечеловеческим разумом, возможное будущее или альтернативный ход истории, а также влияние этих допущений на человеческие общество и личность. Действие научной фантастики часто происходит в будущем, что роднит этот жанр с футурологией.\r\n\r\nФэнтези (от англ. fantasy&nbsp;&mdash; &laquo;фантазия&raquo;)&nbsp;&mdash; жанр, основанный на использовании мифологических и сказочных мотивов. Произведения фэнтези чаще всего напоминают историко-приключенческий роман, действие которого происходит в вымышленном мире, близком к реальному Средневековью, герои которого сталкиваются со сверхъестественными явлениями и существами. Зачастую фэнтези построено на основе архетипических сюжетов.', 'Book');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (8, 'Публицистика и нон-фикшн', '', '', 'Book');
-INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (9, 'Школьная классика', '', '', 'Book');
-INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (10, 'Детская литература', '', '', 'Book');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (11, 'Культура и искусство', '', '', 'Book');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (12, 'Научно-популярная и образовательная литература', '', '', 'Book');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (13, 'Поэзия', '', '', 'Book');
@@ -15,7 +13,6 @@ INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) V
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (15, 'Комиксы и манга', '', '', 'Book');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (16, 'Энциклопедии и справочники', '', '', 'Book');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (17, 'Аниме', '', '', 'Film');
-INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (18, 'Артхаус', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (19, 'Биография', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (20, 'Экшены', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (22, 'Военные фильмы', '', '', 'Film');
@@ -28,7 +25,6 @@ INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) V
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (30, 'Криминал', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (31, 'Мелодрамы', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (32, 'Мистика', '', '', 'Film');
-INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (33, 'Музыкальные программы', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (35, 'Мультфильмы', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (36, 'Мюзиклы', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (37, 'Научные', '', '', 'Film');
@@ -39,15 +35,11 @@ INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) V
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (45, 'Триллеры', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (46, 'Ужасы', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (47, 'Фантастика', '', '', 'Film');
-INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (49, 'Фильмы для детей', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (50, 'Эротика', '', '', 'Film');
-INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (51, 'Юмор', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (52, 'MMORPG', '', '', 'Game');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (53, 'Аркады', '', '', 'Game');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (54, 'Браузерные игры', '', '', 'Game');
-INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (56, 'Интеллектуальные игры', '', '', 'Game');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (57, 'Логические игры', '', '', 'Game');
-INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (58, 'Обучающие и развивающие игры', '', '', 'Game');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (59, 'Квесты', '', '', 'Game');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (60, 'Ролевые игры', '', '', 'Game');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (61, 'Симуляторы', '', '', 'Game');
@@ -56,18 +48,14 @@ INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) V
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (65, 'Экшен', '', '', 'Game');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (66, 'Эротические игры', '', '', 'Game');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (67, 'Рассказы', '', '', 'Book');
-INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (68, 'Нуар', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (70, 'Фэнтези', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (71, 'Коллекционные карточные игры', '', '', 'Game');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (76, 'Файтинги', '', '', 'Game');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (77, 'Инди', '', '', 'Game');
-INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (78, 'Трэш', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (79, 'Вестерны', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (80, 'Семейные', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (82, 'Хорроры', '', '', 'Game');
-INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (83, 'Антиутопии', '', '', 'Film');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (84, 'TBS', '', '', 'Game');
-INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (87, 'Беллетристика', '', '', 'Book');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (88, 'Биографии', '', '', 'Book');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (89, 'Сетевые игры', '', '', 'Game');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (90, 'Мотивационная литература', '', '', 'Book');
@@ -80,7 +68,6 @@ INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) V
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (97, 'Песочницы', '', '', 'Game');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (98, 'RTS', '', '', 'Game');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (99, 'MOBA', '', '', 'Game');
-INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (103, 'Эзотерика', '', '', 'Book');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (104, 'Стелс', '', '', 'Game');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (105, 'Tower Defense', '', '', 'Game');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (107, '8-bit', '', '', 'Album');
@@ -140,7 +127,6 @@ INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) V
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (161, 'Doom', '', '', 'Album');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (162, 'Psychedelic', '', '', 'Album');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (163, 'Визуальные романы', '', '', 'Game');
-INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (164, 'Постмодернизм', '', '', 'Book');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (165, 'Артбуки', '', '', 'Book');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (166, 'Abstract', '', '', 'Album');
 INSERT INTO `genres` (`id`, `name`, `alt_name`, `description`, `element_type`) VALUES (167, 'VR', NULL, NULL, 'Game');

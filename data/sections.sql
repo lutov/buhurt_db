@@ -24,3 +24,4 @@ INSERT INTO `sections` (`id`, `name`, `alt_name`, `type`, `parent_id`, `route`) 
 INSERT INTO `sections` (`id`, `name`, `alt_name`, `type`, `parent_id`, `route`) VALUES (24, 'Издатели игр', 'games_publishers', 'Company', 3, NULL);
 INSERT INTO `sections` (`id`, `name`, `alt_name`, `type`, `parent_id`, `route`) VALUES (25, 'Писатели', 'writers', 'Person', 1, NULL);
 INSERT INTO `sections` (`id`, `name`, `alt_name`, `type`, `parent_id`, `route`) VALUES (26, 'Разработчики', 'developers', 'Company', 6, NULL);
+INSERT INTO `sections` (`id`, `name`, `alt_name`, `type`, `parent_id`, `route`) VALUES (27, 'Треки', 'tracks', 'Track', NULL, NULL);

@@ -3690,9 +3690,9 @@ INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_
 INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3690, 17851, 15, 1, 'Book');
 INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3691, 17851, 7, 1, 'Book');
 INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3692, 17868, 7, 1, 'Book');
-INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3693, 1970, 7, 36, 'Book');
-INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3694, 1970, 5, 27, 'Book');
-INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3695, 1970, 2, 13, 'Book');
+INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3693, 418, 7, 36, 'Book');
+INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3694, 418, 5, 27, 'Book');
+INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3695, 418, 2, 13, 'Book');
 INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3696, 17765, 7, 1, 'Book');
 INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3697, 14239, 15, 10, 'Book');
 INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3698, 14239, 7, 8, 'Book');
@@ -3796,7 +3796,7 @@ INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_
 INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3796, 17954, 7, 1, 'Book');
 INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3797, 17955, 15, 1, 'Book');
 INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3798, 17955, 7, 1, 'Book');
-INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3799, 17956, 7, 1, 'Book');
+INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3799, 1365, 7, 1, 'Book');
 INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3800, 17677, 7, 1, 'Book');
 INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3801, 17677, 67, 1, 'Book');
 INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3802, 17680, 7, 1, 'Book');
@@ -4951,7 +4951,7 @@ INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_
 INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (4951, 26819, 7, 1, 'Book');
 INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (4952, 26820, 7, 1, 'Book');
 INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (4953, 26821, 3, 1, 'Book');
-INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (4954, 26825, 7, 1, 'Book');
+INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (4954, 3864, 7, 1, 'Book');
 INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (4955, 26826, 4, 1, 'Book');
 INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (4956, 26827, 10, 1, 'Book');
 INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (4957, 26828, 4, 1, 'Book');
