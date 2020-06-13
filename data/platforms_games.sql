@@ -61,12 +61,6 @@ INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (227, 16, 
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (231, 14, 134);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (232, 14, 135);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (240, 14, 140);
-INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (252, 5, 147);
-INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (253, 6, 147);
-INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (254, 14, 147);
-INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (255, 9, 147);
-INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (256, 10, 147);
-INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (257, 16, 147);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (259, 6, 149);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (268, 14, 154);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (275, 9, 157);
@@ -339,7 +333,6 @@ INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (1417, 14,
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (1419, 14, 822);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (1420, 10, 822);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (1421, 16, 822);
-INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (1430, 14, 828);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (1431, 1, 829);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (1432, 14, 830);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (1433, 20, 830);
@@ -2552,10 +2545,6 @@ INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (9380, 14,
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (9381, 16, 5574);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (9384, 14, 5576);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (9397, 14, 5583);
-INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (9398, 4, 5584);
-INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (9399, 4, 5584);
-INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (9400, 14, 5584);
-INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (9401, 20, 5584);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (9405, 13, 5587);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (9408, 14, 5589);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (9413, 14, 5593);
@@ -3565,9 +3554,6 @@ INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (12967, 14
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (12971, 9, 7709);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (12972, 13, 7709);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (12973, 1, 7710);
-INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (12978, 14, 7714);
-INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (12979, 10, 7714);
-INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (12980, 16, 7714);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (12989, 14, 7720);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (12992, 4, 7722);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (12993, 4, 7722);
@@ -3589,7 +3575,6 @@ INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (13045, 9,
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (13046, 6, 7755);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (13047, 10, 7755);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (13048, 16, 7755);
-INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (13063, 14, 7763);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (13064, 1, 7764);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (13086, 14, 7776);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (13091, 14, 7779);
@@ -4724,7 +4709,6 @@ INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (17025, 2,
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (17026, 4, 10108);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (17027, 4, 10108);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (17028, 14, 10108);
-INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (17029, 14, 10109);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (17030, 14, 10110);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (17032, 14, 10112);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (17045, 14, 10121);
@@ -11827,3 +11811,8 @@ INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (30395, 14
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (30396, 14, 1238);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (30397, 4, 1238);
 INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (30398, 14, 1239);
+INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (30399, 9, 3756);
+INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (30400, 23, 3756);
+INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (30401, 2, 1513);
+INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (30402, 15, 1513);
+INSERT INTO `platforms_games` (`id`, `platform_id`, `game_id`) VALUES (30403, 12, 1513);

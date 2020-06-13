@@ -3057,3 +3057,5 @@ INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (4172, 167, 268)
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (4173, 167, 307);
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (4174, 169, 587);
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (4175, 169, 614);
+INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (4176, 42, 629);
+INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (4177, 42, 631);

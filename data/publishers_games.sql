@@ -3806,3 +3806,8 @@ INSERT INTO `publishers_games` (`id`, `company_id`, `game_id`) VALUES (6835, 481
 INSERT INTO `publishers_games` (`id`, `company_id`, `game_id`) VALUES (6836, 483, 1237);
 INSERT INTO `publishers_games` (`id`, `company_id`, `game_id`) VALUES (6837, 499, 1238);
 INSERT INTO `publishers_games` (`id`, `company_id`, `game_id`) VALUES (6838, 401, 1239);
+INSERT INTO `publishers_games` (`id`, `company_id`, `game_id`) VALUES (6839, 652, 10590);
+INSERT INTO `publishers_games` (`id`, `company_id`, `game_id`) VALUES (6840, 212, 10590);
+INSERT INTO `publishers_games` (`id`, `company_id`, `game_id`) VALUES (6841, 117, 10590);
+INSERT INTO `publishers_games` (`id`, `company_id`, `game_id`) VALUES (6842, 161, 3756);
+INSERT INTO `publishers_games` (`id`, `company_id`, `game_id`) VALUES (6843, 513, 1513);

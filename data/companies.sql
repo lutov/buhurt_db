@@ -499,6 +499,7 @@ INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, 
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (500, 'Эдита', '', '', '2015-7-10 02:31:44', '2015-7-10 02:31:44');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (501, 'Rainbow Studios', '', '', '2015-7-10 15:26:33', '2015-7-10 15:26:33');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (502, 'Издательство Ольги Морозовой', '', '', '2020-4-30 02:26:05', '2020-4-30 02:26:05');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (503, 'Династия', '', '', '2020-6-2 23:18:40', '2020-6-2 23:18:40');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (504, 'Abstraction Games', '', '', '2015-7-11 05:04:35', '2015-7-11 05:04:35');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (505, 'Midnight City', '', '', '2015-7-11 05:04:35', '2015-7-11 05:04:35');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (506, 'Javaground', '', '', '2015-7-11 05:14:10', '2015-7-11 05:14:10');
@@ -508,8 +509,10 @@ INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, 
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (510, 'Sculptured Software', '', '', '2015-7-11 05:26:48', '2015-7-11 05:26:48');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (511, 'Williams', '', '', '2015-7-11 05:26:48', '2015-7-11 05:26:48');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (512, 'Arena', '', '', '2015-7-11 05:26:48', '2015-7-11 05:26:48');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (513, '3909 LLC', '', '', '2020-6-3 16:12:58', '2020-6-3 16:12:58');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (514, 'Tec Toy', '', '', '2015-7-11 05:26:48', '2015-7-11 05:26:48');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (515, 'Software Creations', '', '', '2015-7-11 05:31:35', '2015-7-11 05:31:35');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (516, 'Русская Редакция', '', '', '2020-6-10 16:29:07', '2020-6-10 16:29:07');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (517, 'Digital Eclipse', '', '', '2015-7-11 05:34:00', '2015-7-11 05:34:00');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (518, 'Just Games Interactive', '', '', '2015-7-11 05:42:03', '2015-7-11 05:42:03');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (520, 'Йельский университет', '', '', '2015-7-14 09:30:06', '2015-7-14 09:30:06');

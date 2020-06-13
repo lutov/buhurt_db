@@ -3352,3 +3352,6 @@ INSERT INTO `developers_games` (`id`, `company_id`, `game_id`) VALUES (5924, 473
 INSERT INTO `developers_games` (`id`, `company_id`, `game_id`) VALUES (5925, 483, 1237);
 INSERT INTO `developers_games` (`id`, `company_id`, `game_id`) VALUES (5926, 499, 1238);
 INSERT INTO `developers_games` (`id`, `company_id`, `game_id`) VALUES (5927, 446, 1239);
+INSERT INTO `developers_games` (`id`, `company_id`, `game_id`) VALUES (5928, 1082, 10590);
+INSERT INTO `developers_games` (`id`, `company_id`, `game_id`) VALUES (5929, 161, 3756);
+INSERT INTO `developers_games` (`id`, `company_id`, `game_id`) VALUES (5930, 513, 1513);
