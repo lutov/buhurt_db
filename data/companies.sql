@@ -515,6 +515,7 @@ INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, 
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (516, 'Русская Редакция', '', '', '2020-6-10 16:29:07', '2020-6-10 16:29:07');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (517, 'Digital Eclipse', '', '', '2015-7-11 05:34:00', '2015-7-11 05:34:00');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (518, 'Just Games Interactive', '', '', '2015-7-11 05:42:03', '2015-7-11 05:42:03');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (519, 'Sacnoth', '', '', '2020-6-17 22:13:01', '2020-6-17 22:13:01');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (520, 'Йельский университет', '', '', '2015-7-14 09:30:06', '2015-7-14 09:30:06');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (521, 'Театральное общество Грузии', '', '', '2015-7-14 09:37:53', '2015-7-14 09:37:53');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (522, 'Тиен', '', '', '2015-7-16 09:55:02', '2015-7-16 09:55:02');
@@ -545,6 +546,7 @@ INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, 
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (547, 'Secret Identity Studios', '', '', '2015-7-31 03:25:34', '2015-7-31 03:25:34');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (548, 'Marvel', '', '', '2015-7-31 03:25:34', '2015-7-31 03:25:34');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (549, 'TT Games', '', '', '2015-7-31 03:31:46', '2015-7-31 03:31:46');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (550, 'Lightbulb Crew', '', '', '2020-6-17 22:27:23', '2020-6-17 22:27:23');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (551, 'Savage', '', '', '2015-7-31 03:38:16', '2015-7-31 03:38:16');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (552, 'Harmonix Music Systems', '', '', '2015-7-31 03:55:46', '2015-7-31 03:55:46');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (553, 'RedOctane', '', '', '2015-7-31 03:55:46', '2015-7-31 03:55:46');
@@ -553,6 +555,7 @@ INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, 
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (556, 'Vicarious Visions', '', '', '2015-7-31 04:20:55', '2018-5-26 19:09:45');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (557, 'Underground Development', '', '', '2015-7-31 04:24:50', '2015-7-31 04:24:50');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (558, 'Red Storm Entertainment', '', '', '2015-7-31 10:23:29', '2015-7-31 10:23:29');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (559, 'LBC Games', '', '', '2020-6-17 22:27:23', '2020-6-17 22:27:23');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (560, 'GRIN', '', '', '2015-8-1 02:41:24', '2015-8-1 02:41:24');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (561, 'Vellod', '', '', '2015-8-1 03:08:14', '2015-8-1 03:08:14');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (562, 'Naughty Dog', '', '', '2015-8-2 09:54:24', '2015-8-2 09:54:24');
@@ -562,13 +565,17 @@ INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, 
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (566, 'Phantagram', '', '', '2015-8-2 10:07:26', '2015-8-2 10:07:26');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (567, 'Stage 2 Studios', '', '', '2015-8-2 10:10:44', '2015-8-2 10:10:44');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (568, 'Realtime Associates', '', '', '2015-8-2 10:18:32', '2015-8-2 10:18:32');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (569, 'Mirage', '', '', '2020-6-29 12:04:47', '2020-6-29 12:04:47');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (570, 'Massive Entertainment', '', '', '2015-8-2 10:20:38', '2015-8-2 10:20:38');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (571, 'Absolute Entertainment', '', '', '2020-6-29 12:04:47', '2020-6-29 12:04:47');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (572, 'Phoenix Labs', '', '', '2020-6-30 23:04:50', '2020-6-30 23:04:50');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (573, 'Божья искра', '', '', '2015-8-2 10:22:51', '2015-8-2 10:22:51');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (574, 'Widescreen Games', '', '', '2015-8-2 10:27:59', '2015-8-2 10:27:59');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (575, 'Valcon Games', '', '', '2015-8-2 10:27:59', '2015-8-2 10:27:59');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (576, 'TaleWorlds Entertainment', '', '', '2015-8-5 11:18:54', '2015-8-5 11:18:54');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (577, 'Palcom', '', '', '2015-8-8 04:38:54', '2015-8-8 04:38:54');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (578, 'KCET', '', '', '2015-8-8 04:45:46', '2015-8-8 04:45:46');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (579, 'Прогресс', '', '', '2020-6-30 23:28:13', '2020-6-30 23:28:13');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (580, 'Maddox Games', '', '', '2015-8-9 04:02:11', '2015-8-9 04:02:11');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (581, 'DiP Interactive', '', '', '2015-8-9 04:31:57', '2015-8-9 04:31:57');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (582, 'SME Dynamic Systems', '', '', '2015-8-9 04:31:57', '2015-8-9 04:31:57');
@@ -577,6 +584,7 @@ INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, 
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (585, 'Hitcents', '', '', '2015-8-11 03:48:29', '2015-8-11 03:48:29');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (586, 'Hexage', '', '', '2015-8-11 03:57:38', '2015-8-11 03:57:38');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (587, 'Team Silent', '', '', '2015-8-14 00:44:22', '2015-8-14 00:44:22');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (588, 'Kvisaz Games', '', '', '2020-7-6 14:18:12', '2020-7-6 14:18:12');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (589, 'Vatra Games', '', '', '2015-8-14 01:13:20', '2015-8-14 01:13:20');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (590, 'SNK', '', '', '2015-8-14 01:33:04', '2015-8-14 01:33:04');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (591, 'Gaibrain', '', '', '2015-8-14 01:39:54', '2015-8-14 01:39:54');
@@ -594,6 +602,7 @@ INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, 
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (603, 'Zen United', '', '', '2015-8-16 00:32:35', '2015-8-16 00:32:35');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (604, 'Day 1 Studios', '', '', '2015-8-16 00:54:03', '2015-8-16 00:54:03');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (605, 'Legend Entertainment Company', '', '', '2015-8-16 01:12:14', '2015-8-16 01:12:14');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (606, 'Hosted Games', '', '', '2020-7-6 14:44:07', '2020-7-6 14:44:07');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (607, 'Krisalis', '', '', '2015-8-23 02:45:14', '2015-8-23 02:45:14');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (608, 'Pony Canyon', '', '', '2015-8-23 02:45:14', '2015-8-23 02:45:14');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (609, 'I-Motion', '', '', '2015-8-23 02:47:52', '2015-8-23 02:47:52');
@@ -602,6 +611,7 @@ INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, 
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (612, 'Treyarch', '', '', '2015-8-23 03:34:00', '2015-8-23 03:34:00');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (613, 'Sledgehammer Games', '', '', '2015-8-23 03:41:41', '2015-8-23 03:41:41');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (614, 'Mercenary Technology', '', '', '2015-8-23 03:57:33', '2015-8-23 03:57:33');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (615, 'The Logic Factory', '', '', '2020-7-7 15:23:58', '2020-7-7 15:23:58');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (616, 'Ideaworks Game Studio', '', '', '2015-8-23 04:10:22', '2015-8-23 04:10:22');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (617, 'Tencent Holdings', '', '', '2015-8-23 04:16:29', '2015-8-23 04:16:29');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (618, 'Pyro Studios', '', '', '2015-8-24 02:30:11', '2015-8-24 02:30:11');
@@ -611,6 +621,7 @@ INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, 
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (622, 'ASCII Entertainment', '', '', '2015-8-28 02:57:59', '2015-8-28 02:57:59');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (623, 'Melbourne House', '', '', '2015-8-28 03:10:30', '2015-8-28 03:10:30');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (624, 'Beam Software', '', '', '2015-8-28 03:13:07', '2015-8-28 03:13:07');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (625, 'UbisoftDream', '', '', '2020-7-8 10:16:49', '2020-7-8 10:16:49');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (626, 'Blast! Entertainment', '', '', '2015-8-28 03:24:45', '2015-8-28 03:24:45');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (627, 'Titus Software', '', '', '2015-8-28 03:24:45', '2015-8-28 03:24:45');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (628, 'Mojang', '', '', '2015-8-28 03:33:29', '2015-8-28 03:33:29');
@@ -624,6 +635,7 @@ INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, 
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (636, 'Shaba Games', '', '', '2015-8-29 01:22:42', '2015-8-29 01:22:42');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (637, 'Torus Games', '', '', '2015-8-29 01:28:42', '2015-8-29 01:28:42');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (638, 'Gray Matter Interactive', '', '', '2015-8-29 01:32:54', '2015-8-29 01:32:54');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (639, 'Catcher Interactive', '', '', '2020-7-8 10:16:49', '2020-7-8 10:16:49');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (640, 'MNM Software', '', '', '2015-8-29 01:45:51', '2015-8-29 01:45:51');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (641, 'Ancient H.I.C.', '', '', '2015-8-29 01:49:02', '2015-8-29 01:49:02');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (642, 'Shout! Designworks', '', '', '2015-8-29 01:49:02', '2015-8-29 01:49:02');
@@ -651,7 +663,10 @@ INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, 
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (664, 'Digital Dialect', '', '', '2015-9-19 04:08:29', '2015-9-19 04:08:29');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (665, 'Bluepoint Games', '', '', '2015-9-19 04:11:56', '2015-9-19 04:11:56');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (666, 'TransGaming', '', '', '2015-9-19 04:33:28', '2015-9-19 04:33:28');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (667, 'Nacon', '', '', '2020-7-9 11:55:36', '2020-7-9 11:55:36');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (668, 'Slavic Magic', '', '', '2020-7-9 12:05:52', '2020-7-9 12:05:52');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (669, '343 Industries', '', '', '2015-9-26 22:47:01', '2015-9-26 22:47:01');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (670, 'MOR/ANN Games', '', '', '2020-7-9 12:29:10', '2020-7-9 12:29:10');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (671, 'Vanguard Games', '', '', '2015-9-26 23:13:24', '2015-9-26 23:13:24');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (672, 'Re-Logic', '', '', '2015-10-10 06:05:57', '2015-10-10 06:05:57');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (673, 'Spike Chunsoft', '', '', '2015-10-10 06:05:57', '2015-10-10 06:05:57');
@@ -663,6 +678,8 @@ INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, 
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (679, 'KnowWonder', '', '', '2015-10-31 22:37:37', '2015-10-31 22:37:37');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (680, 'Warthog Games', '', '', '2015-10-31 22:37:37', '2015-10-31 22:37:37');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (681, 'Argonaut Games', '', '', '2015-10-31 22:37:37', '2015-10-31 22:37:37');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (682, 'TiGAMES', '', '', '2020-7-9 12:37:20', '2020-7-9 12:37:20');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (683, 'Zeal Game Studio', '', '', '2020-8-2 23:28:00', '2020-8-2 23:28:00');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (684, 'Superscape', '', '', '2015-10-31 23:04:41', '2015-10-31 23:04:41');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (685, 'Magic Pockets', '', '', '2015-10-31 23:17:25', '2015-10-31 23:17:25');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (686, 'LightBox Interactive', '', '', '2015-10-31 23:20:46', '2015-10-31 23:20:46');
@@ -774,8 +791,11 @@ INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, 
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (792, 'Big Fish Games', '', '', '2016-5-18 10:17:44', '2016-5-18 10:17:44');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (793, 'Mindware Studios', '', '', '2016-5-18 10:30:28', '2016-5-18 10:30:28');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (794, 'Homegrown Games', '', '', '2016-5-18 10:33:29', '2016-5-18 10:33:29');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (795, 'Phobia Game Studio', '', '', '2020-8-3 00:13:27', '2020-8-3 00:13:27');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (796, 'Lost Pilgrims Studio', '', '', '2020-8-4 21:16:38', '2020-8-4 21:16:38');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (797, 'Med-Art', '', '', '2016-5-18 10:39:56', '2016-5-18 10:39:56');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (798, 'The Farm 51', '', '', '2016-5-18 10:42:25', '2016-5-18 10:42:25');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (799, 'Sever', '', '', '2020-8-4 21:23:28', '2020-8-4 21:23:28');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (800, 'Funatics Studio', '', '', '2016-5-19 08:17:22', '2016-5-19 08:17:22');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (801, 'First Star Software', '', '', '2016-5-19 08:39:59', '2016-5-19 08:39:59');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (802, 'Beyond Software', '', '', '2016-5-19 08:39:59', '2016-5-19 08:39:59');
@@ -790,6 +810,8 @@ INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, 
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (811, 'Подкова', '', '', '2016-6-6 06:52:25', '2016-6-6 06:52:25');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (812, 'Урал', '', '', '2016-6-6 07:07:15', '2016-6-6 07:07:15');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (813, 'Альфа-книга', '', '', '2016-6-6 07:14:32', '2016-6-6 07:14:32');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (814, '101XP', '', '', '2020-8-4 21:23:29', '2020-8-4 21:23:29');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (815, 'Volga Studios', '', '', '2020-8-5 21:21:11', '2020-8-5 21:21:11');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (816, 'Общество друзей Л.Ф. Селина', '', '', '2016-6-7 07:06:32', '2016-6-7 07:06:32');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (817, 'Альпина', '', '', '2016-6-7 07:18:02', '2016-6-7 07:18:02');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (818, 'Флюид', '', '', '2016-6-8 07:08:34', '2016-6-8 07:08:34');
@@ -805,6 +827,7 @@ INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, 
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (828, 'Salben Publishing', '', '', '2016-6-22 04:50:04', '2016-6-22 04:50:04');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (829, 'Parallel Comics', '', 'Мы любим и выпускаем комиксы! Среди наших релизов&nbsp;&mdash; одиночные книги комиксов про Человека-Паука, Мстителей, Доктора Стрэнджа и других знаменитых супергероев. Кроме того, мы издаём комиксы и от отечественных авторов&nbsp;&mdash; например, антологии &laquo;Параллельные комиксы&raquo; и&nbsp;&laquo;Диссонанс&raquo;.', '2016-6-25 05:30:15', '2018-5-30 21:04:17');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (830, 'NeocoreGames', '', '', '2016-6-25 05:52:26', '2016-6-25 05:52:26');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (831, 'Kubold', '', '', '2020-8-5 21:41:38', '2020-8-5 21:41:38');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (832, 'Ил-music', '', '', '2016-6-26 16:33:36', '2016-6-26 16:33:36');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (833, 'Softhouse-seal', '', '', '2016-6-27 06:24:48', '2016-6-27 06:24:48');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (834, 'Pan Macmillan', '', '', '2016-6-27 06:30:03', '2016-6-27 06:30:03');
@@ -842,6 +865,7 @@ INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, 
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (866, 'Rare', '', '', '2016-9-7 09:07:29', '2016-9-7 09:07:29');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (867, 'Hammerfall Publishing', '', '', '2016-9-10 06:03:32', '2016-9-10 06:03:32');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (868, '4A Games', '', '', '2016-9-10 09:04:47', '2016-9-10 09:04:47');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (869, 'Stellar Fish', '', '', '2020-8-5 21:47:42', '2020-8-5 21:47:42');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (870, 'Object Software', '', '', '2016-9-10 20:26:51', '2016-9-10 20:26:51');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (871, 'GMX Media', '', '', '2016-9-10 20:26:51', '2016-9-10 20:26:51');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (872, 'Gust Co.', '', '', '2016-9-10 20:33:26', '2016-9-10 20:33:26');
@@ -855,6 +879,7 @@ INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, 
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (880, 'Chunsoft', '', '', '2016-9-11 00:28:44', '2016-9-11 00:28:44');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (881, 'Matilda', '', '', '2016-9-11 04:20:19', '2016-9-11 04:20:19');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (882, 'Allods Team', '', '', '2016-9-11 04:24:33', '2016-9-11 04:24:33');
+INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (883, 'Animedia Company', '', '', '2020-8-6 12:52:41', '2020-8-6 12:52:41');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (884, 'Gas Powered Games', '', '', '2016-9-11 04:30:01', '2016-9-11 04:30:01');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (885, 'SuperVillain Studios', '', '', '2016-9-11 04:37:27', '2016-9-11 04:37:27');
 INSERT INTO `companies` (`id`, `name`, `alt_name`, `description`, `created_at`, `updated_at`) VALUES (886, 'Cavalier Game Studios', '', '', '2016-9-12 22:08:01', '2016-9-12 22:08:01');
