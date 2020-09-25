@@ -3463,3 +3463,15 @@ INSERT INTO `publishers_books` (`id`, `company_id`, `book_id`) VALUES (4711, 5, 
 INSERT INTO `publishers_books` (`id`, `company_id`, `book_id`) VALUES (4712, 2, 10351);
 INSERT INTO `publishers_books` (`id`, `company_id`, `book_id`) VALUES (4713, 2, 10734);
 INSERT INTO `publishers_books` (`id`, `company_id`, `book_id`) VALUES (4714, 883, 10663);
+INSERT INTO `publishers_books` (`id`, `company_id`, `book_id`) VALUES (4715, 109, 10779);
+INSERT INTO `publishers_books` (`id`, `company_id`, `book_id`) VALUES (4716, 896, 18382);
+INSERT INTO `publishers_books` (`id`, `company_id`, `book_id`) VALUES (4717, 5, 18385);
+INSERT INTO `publishers_books` (`id`, `company_id`, `book_id`) VALUES (4718, 5, 18416);
+INSERT INTO `publishers_books` (`id`, `company_id`, `book_id`) VALUES (4719, 5, 18437);
+INSERT INTO `publishers_books` (`id`, `company_id`, `book_id`) VALUES (4720, 5, 8617);
+INSERT INTO `publishers_books` (`id`, `company_id`, `book_id`) VALUES (4721, 109, 12239);
+INSERT INTO `publishers_books` (`id`, `company_id`, `book_id`) VALUES (4722, 2, 2132);
+INSERT INTO `publishers_books` (`id`, `company_id`, `book_id`) VALUES (4723, 109, 8949);
+INSERT INTO `publishers_books` (`id`, `company_id`, `book_id`) VALUES (4724, 109, 13149);
+INSERT INTO `publishers_books` (`id`, `company_id`, `book_id`) VALUES (4725, 846, 816);
+INSERT INTO `publishers_books` (`id`, `company_id`, `book_id`) VALUES (4726, 436, 16079);

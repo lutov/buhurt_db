@@ -752,7 +752,6 @@ INSERT INTO `bands` (`id`, `name`, `alt_name`, `photo`, `description`, `created_
 INSERT INTO `bands` (`id`, `name`, `alt_name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (758, 'Slash', NULL, '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', 'US');
 INSERT INTO `bands` (`id`, `name`, `alt_name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (759, 'Scanner', NULL, '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', 'DE');
 INSERT INTO `bands` (`id`, `name`, `alt_name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (760, 'Alchemist', NULL, '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', 'AU');
-INSERT INTO `bands` (`id`, `name`, `alt_name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (761, 'Reale Accademia Di Musica', NULL, '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', 'IT');
 INSERT INTO `bands` (`id`, `name`, `alt_name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (762, 'I.D. Company', NULL, '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', 'DE');
 INSERT INTO `bands` (`id`, `name`, `alt_name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (763, 'On Trial', NULL, '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', 'DK');
 INSERT INTO `bands` (`id`, `name`, `alt_name`, `photo`, `description`, `created_at`, `updated_at`, `country`) VALUES (764, 'John Carpenter', NULL, '', '', '0000-0-0 00:00:00', '0000-0-0 00:00:00', 'US');

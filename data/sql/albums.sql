@@ -1710,9 +1710,7 @@ INSERT INTO `albums` (`id`, `name`, `alt_name`, `description`, `year`, `verified
 INSERT INTO `albums` (`id`, `name`, `alt_name`, `description`, `year`, `verified`, `created_at`, `updated_at`) VALUES (1775, 'Crackers', NULL, '', 1985, 0, '2014-6-1 10:00:00', '2020-6-13 14:27:30');
 INSERT INTO `albums` (`id`, `name`, `alt_name`, `description`, `year`, `verified`, `created_at`, `updated_at`) VALUES (1776, 'You Boyz Make Big Noize', NULL, '', 1987, 0, '2014-6-1 10:00:00', '2020-6-13 14:27:30');
 INSERT INTO `albums` (`id`, `name`, `alt_name`, `description`, `year`, `verified`, `created_at`, `updated_at`) VALUES (1777, 'Wall of Hits', NULL, '', 1991, 0, '2014-6-1 10:00:00', '2020-6-13 14:27:30');
-INSERT INTO `albums` (`id`, `name`, `alt_name`, `description`, `year`, `verified`, `created_at`, `updated_at`) VALUES (1778, 'Keep on Rockin (as Slade 2)', NULL, '', 1994, 0, '2014-6-1 10:00:00', '2020-6-13 14:27:30');
 INSERT INTO `albums` (`id`, `name`, `alt_name`, `description`, `year`, `verified`, `created_at`, `updated_at`) VALUES (1779, 'Feel The Noize', NULL, '', 1997, 0, '2014-6-1 10:00:00', '2020-6-13 14:27:30');
-INSERT INTO `albums` (`id`, `name`, `alt_name`, `description`, `year`, `verified`, `created_at`, `updated_at`) VALUES (1780, 'Cum On Let`s Party (Keep on Rocking re-release)', NULL, '', 2002, 0, '2014-6-1 10:00:00', '2020-6-13 14:27:30');
 INSERT INTO `albums` (`id`, `name`, `alt_name`, `description`, `year`, `verified`, `created_at`, `updated_at`) VALUES (1782, 'DVD', NULL, '', 2006, 0, '2014-6-1 10:00:00', '2020-6-13 14:27:30');
 INSERT INTO `albums` (`id`, `name`, `alt_name`, `description`, `year`, `verified`, `created_at`, `updated_at`) VALUES (1783, 'In for a Penny: Raves & Faves', NULL, '', 2007, 0, '2014-6-1 10:00:00', '2020-6-13 14:27:30');
 INSERT INTO `albums` (`id`, `name`, `alt_name`, `description`, `year`, `verified`, `created_at`, `updated_at`) VALUES (1784, 'Show no Mercy', NULL, ' ', 1984, 1, '2014-6-1 10:00:00', '2020-6-13 14:27:30');
@@ -2888,7 +2886,6 @@ INSERT INTO `albums` (`id`, `name`, `alt_name`, `description`, `year`, `verified
 INSERT INTO `albums` (`id`, `name`, `alt_name`, `description`, `year`, `verified`, `created_at`, `updated_at`) VALUES (3073, 'Lunasphere', NULL, '', 1995, 0, '2014-6-1 10:00:00', '2020-6-13 14:27:30');
 INSERT INTO `albums` (`id`, `name`, `alt_name`, `description`, `year`, `verified`, `created_at`, `updated_at`) VALUES (3074, 'Jar of Kingdom', NULL, '', 1993, 0, '2014-6-1 10:00:00', '2020-6-13 14:27:30');
 INSERT INTO `albums` (`id`, `name`, `alt_name`, `description`, `year`, `verified`, `created_at`, `updated_at`) VALUES (3075, 'Tempo Senza Tempo', NULL, '', 2009, 0, '2014-6-1 10:00:00', '2020-6-13 14:27:30');
-INSERT INTO `albums` (`id`, `name`, `alt_name`, `description`, `year`, `verified`, `created_at`, `updated_at`) VALUES (3076, 'Reale Accademia Di Musica', NULL, '', 1972, 0, '2014-6-1 10:00:00', '2020-6-13 14:27:30');
 INSERT INTO `albums` (`id`, `name`, `alt_name`, `description`, `year`, `verified`, `created_at`, `updated_at`) VALUES (3077, 'Season of the Witch', NULL, '', 2015, 0, '2014-6-1 10:00:00', '2020-6-13 14:27:30');
 INSERT INTO `albums` (`id`, `name`, `alt_name`, `description`, `year`, `verified`, `created_at`, `updated_at`) VALUES (3078, 'Don\'t Mention Rock\'n\'Roll', NULL, '', 2013, 0, '2014-6-1 10:00:00', '2020-6-13 14:27:30');
 INSERT INTO `albums` (`id`, `name`, `alt_name`, `description`, `year`, `verified`, `created_at`, `updated_at`) VALUES (3079, 'Merlin Atmos', NULL, '', 2015, 0, '2014-6-1 10:00:00', '2020-6-13 14:27:30');

@@ -3259,7 +3259,7 @@ INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_
 INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3259, 407, 4, 1, 'Book');
 INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3260, 8206, 7, 7, 'Book');
 INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3261, 8206, 2, 1, 'Book');
-INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3262, 6118, 6, 2, 'Book');
+INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3262, 6099, 6, 2, 'Book');
 INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3263, 1393, 10, 1, 'Book');
 INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3264, 1393, 11, 1, 'Book');
 INSERT INTO `writers_genres` (`id`, `person_id`, `genre_id`, `weight`, `element_type`) VALUES (3265, 272, 6, 2, 'Book');

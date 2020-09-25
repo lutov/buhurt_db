@@ -767,7 +767,6 @@ INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (936, 1686, 81
 INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (937, 2304, 814);
 INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (938, 716, 815);
 INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (940, 6318, 815);
-INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (941, 3473, 816);
 INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (942, 8163, 817);
 INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (943, 1460, 818);
 INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (944, 214, 819);
@@ -6109,7 +6108,7 @@ INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (7382, 2724, 6
 INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (7383, 7253, 6492);
 INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (7384, 8646, 6493);
 INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (7385, 2182, 6494);
-INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (7387, 6118, 6496);
+INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (7387, 6099, 6496);
 INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (7388, 1708, 6497);
 INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (7389, 5093, 6498);
 INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (7390, 4649, 6499);
@@ -9164,7 +9163,7 @@ INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (11368, 3547, 
 INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (11371, 560, 10031);
 INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (11374, 2351, 10033);
 INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (11375, 3381, 10034);
-INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (11376, 6118, 10035);
+INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (11376, 6099, 10035);
 INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (11378, 5911, 10037);
 INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (11379, 4813, 10038);
 INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (11381, 4592, 10040);
@@ -15126,3 +15125,14 @@ INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (19888, 9256, 
 INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (19889, 8995, 10351);
 INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (19890, 8995, 10734);
 INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (19891, 7586, 10663);
+INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (19892, 6118, 10779);
+INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (19893, 7876, 18382);
+INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (19894, 5346, 18385);
+INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (19895, 13767, 18416);
+INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (19896, 9232, 18437);
+INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (19897, 5842, 12239);
+INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (19898, 3802, 13149);
+INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (19899, 9359, 816);
+INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (19900, 9360, 816);
+INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (19901, 20044, 16079);
+INSERT INTO `writers_books` (`id`, `person_id`, `book_id`) VALUES (19902, 28413, 16079);

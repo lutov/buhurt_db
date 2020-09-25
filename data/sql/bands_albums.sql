@@ -1412,9 +1412,7 @@ INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1721, 553, 1774
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1722, 553, 1775);
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1723, 553, 1776);
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1724, 553, 1777);
-INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1725, 553, 1778);
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1726, 553, 1779);
-INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1727, 553, 1780);
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1729, 553, 1782);
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1730, 553, 1783);
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (1742, 555, 1795);
@@ -2513,8 +2511,6 @@ INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (2996, 760, 3071
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (2997, 760, 3072);
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (2998, 760, 3073);
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (2999, 760, 3074);
-INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (3000, 761, 3075);
-INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (3001, 761, 3076);
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (3002, 559, 3077);
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (3003, 371, 3078);
 INSERT INTO `bands_albums` (`id`, `band_id`, `album_id`) VALUES (3004, 591, 3079);
