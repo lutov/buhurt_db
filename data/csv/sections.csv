@@ -1,30 +1,30 @@
-"id";"name";"alt_name";"type";"parent_id";"route"
-"1";"Книги";"books";"Book";"";"books"
-"2";"Фильмы";"films";"Film";"";"films"
-"3";"Игры";"games";"Game";"";"games"
-"4";"Музыка";"albums";"Album";"";"albums"
-"5";"Персоны";"persons";"Person";"";"persons"
-"6";"Компании";"companies";"Company";"";"companies"
-"7";"Коллекции";"collections";"Collection";"";"Collection"
-"8";"Группы";"bands";"Band";"";"Band"
-"9";"Не найдено";"notfound";"NotFound";"";""
-"10";"Публичный список";"public_list";"PublicList";"";""
-"11";"Частный список";"private_list";"PrivateList";"";""
-"12";"Мемы";"memes";"Meme";"";"memes"
-"13";"Страны";"countries";"Country";"";"Country"
-"14";"Платформы";"platforms";"Platform";"";"Platform"
-"15";"Жанры";"genres";"Genre";"";"genres"
-"16";"Календарь";"years";"Year";"";"years"
-"17";"Желаемое";"wanted";"Wanted";"";""
-"18";"Нежелаемое";"unwanted";"Unwanted";"";""
-"19";"Режиссёры";"directors";"Person";"2";""
-"20";"Сценаристы";"screenwriters";"Person";"2";""
-"21";"Продюсеры";"producers";"Person";"2";""
-"22";"Актёры";"actors";"Person";"2";""
-"23";"Издатели книг";"books_publishers";"Company";"1";""
-"24";"Издатели игр";"games_publishers";"Company";"3";""
-"25";"Писатели";"writers";"Person";"1";""
-"26";"Разработчики";"developers";"Company";"6";""
-"27";"Треки";"tracks";"Track";"";""
-"28";"Пользователи";"user";"User";"";""
-"29";"События";"events";"Event";"";""
+"id","name","alt_name","type","parent_id","route"
+"1","Книги","books","Book",,"books"
+"2","Фильмы","films","Film",,"films"
+"3","Игры","games","Game",,"games"
+"4","Музыка","albums","Album",,"albums"
+"5","Персоны","persons","Person",,"persons"
+"6","Компании","companies","Company",,"companies"
+"7","Коллекции","collections","Collection",,"Collection"
+"8","Группы","bands","Band",,"Band"
+"9","Не найдено","notfound","NotFound",,
+"10","Публичный список","public_list","PublicList",,
+"11","Частный список","private_list","PrivateList",,
+"12","Мемы","memes","Meme",,"memes"
+"13","Страны","countries","Country",,"Country"
+"14","Платформы","platforms","Platform",,"Platform"
+"15","Жанры","genres","Genre",,"genres"
+"16","Календарь","years","Year",,"years"
+"17","Желаемое","wanted","Wanted",,
+"18","Нежелаемое","unwanted","Unwanted",,
+"19","Режиссёры","directors","Person","2",
+"20","Сценаристы","screenwriters","Person","2",
+"21","Продюсеры","producers","Person","2",
+"22","Актёры","actors","Person","2",
+"23","Издатели книг","books_publishers","Company","1",
+"24","Издатели игр","games_publishers","Company","3",
+"25","Писатели","writers","Person","1",
+"26","Разработчики","developers","Company","6",
+"27","Треки","tracks","Track",,
+"28","Пользователи","user","User",,
+"29","События","events","Event",,
