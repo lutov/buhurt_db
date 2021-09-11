@@ -1,3 +1,19 @@
+/*
+ Navicat Premium Data Transfer
+
+ Source Server         : buhurt.ru lutov
+ Source Server Type    : MySQL
+ Source Server Version : 50731
+ Source Host           : localhost:3306
+ Source Schema         : u0402245_buhurt
+
+ Target Server Type    : MySQL
+ Target Server Version : 50731
+ File Encoding         : 65001
+
+ Date: 11/09/2021 12:47:51
+*/
+
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
@@ -14,7 +30,7 @@ CREATE TABLE `actors_films`  (
   INDEX `book_id`(`film_id`) USING BTREE,
   CONSTRAINT `actors_films_ibfk_1` FOREIGN KEY (`person_id`) REFERENCES `persons` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `actors_films_ibfk_2` FOREIGN KEY (`film_id`) REFERENCES `films` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE = InnoDB AUTO_INCREMENT = 46408 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 47101 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for albums
@@ -49,7 +65,7 @@ CREATE TABLE `albums_tracks`  (
   `updated_at` timestamp(0) NOT NULL DEFAULT CURRENT_TIMESTAMP(0) ON UPDATE CURRENT_TIMESTAMP(0),
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `album_id`(`album_id`) USING BTREE
-) ENGINE = MyISAM AUTO_INCREMENT = 18250 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = MyISAM AUTO_INCREMENT = 18301 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for bands
@@ -80,7 +96,7 @@ CREATE TABLE `bands_albums`  (
   INDEX `book_id`(`album_id`) USING BTREE,
   CONSTRAINT `bands_albums_ibfk_1` FOREIGN KEY (`band_id`) REFERENCES `bands` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `bands_albums_ibfk_2` FOREIGN KEY (`album_id`) REFERENCES `albums` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE = InnoDB AUTO_INCREMENT = 4178 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 4182 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for bands_persons
@@ -141,7 +157,7 @@ CREATE TABLE `companies`  (
   `created_at` timestamp(0) NOT NULL DEFAULT '0000-00-00 00:00:00',
   `updated_at` timestamp(0) NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP(0),
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 1843 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 1861 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for countries
@@ -167,7 +183,7 @@ CREATE TABLE `countries_films`  (
   INDEX `film_id`(`film_id`) USING BTREE,
   CONSTRAINT `countries_films_ibfk_2` FOREIGN KEY (`film_id`) REFERENCES `films` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `countries_films_ibfk_3` FOREIGN KEY (`country_id`) REFERENCES `countries` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE = InnoDB AUTO_INCREMENT = 20719 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 20883 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for developers_games
@@ -182,7 +198,7 @@ CREATE TABLE `developers_games`  (
   INDEX `book_id`(`game_id`) USING BTREE,
   CONSTRAINT `developers_games_ibfk_1` FOREIGN KEY (`game_id`) REFERENCES `games` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `developers_games_ibfk_2` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE = InnoDB AUTO_INCREMENT = 6124 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 6158 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for directors_films
@@ -197,7 +213,7 @@ CREATE TABLE `directors_films`  (
   INDEX `book_id`(`film_id`) USING BTREE,
   CONSTRAINT `directors_films_ibfk_1` FOREIGN KEY (`person_id`) REFERENCES `persons` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `directors_films_ibfk_2` FOREIGN KEY (`film_id`) REFERENCES `films` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE = InnoDB AUTO_INCREMENT = 18145 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 18338 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for elements_collections
@@ -210,7 +226,7 @@ CREATE TABLE `elements_collections`  (
   `element_type` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `art_form_id`(`element_type`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 5375 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 5435 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for elements_genres
@@ -230,7 +246,7 @@ CREATE TABLE `elements_genres`  (
   INDEX `element_type`(`element_type`) USING BTREE,
   CONSTRAINT `elements_genres_ibfk_1` FOREIGN KEY (`element_type`) REFERENCES `sections` (`type`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `elements_genres_ibfk_2` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE = InnoDB AUTO_INCREMENT = 138448 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 139112 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for elements_relations
@@ -246,7 +262,7 @@ CREATE TABLE `elements_relations`  (
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `relation_id`(`relation_id`) USING BTREE,
   CONSTRAINT `elements_relations_ibfk_1` FOREIGN KEY (`relation_id`) REFERENCES `relations` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE = InnoDB AUTO_INCREMENT = 30895 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 31355 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci;
 
 -- ----------------------------
 -- Table structure for films
@@ -269,7 +285,7 @@ CREATE TABLE `films`  (
   INDEX `alt_name`(`alt_name`) USING BTREE,
   INDEX `year`(`year`) USING BTREE,
   INDEX `verified`(`verified`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 9748 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 9864 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for games
@@ -317,7 +333,7 @@ CREATE TABLE `persons`  (
   `created_at` timestamp(0) NOT NULL DEFAULT CURRENT_TIMESTAMP(0),
   `updated_at` timestamp(0) NOT NULL DEFAULT CURRENT_TIMESTAMP(0) ON UPDATE CURRENT_TIMESTAMP(0),
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 33620 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 34165 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for platforms
@@ -343,7 +359,7 @@ CREATE TABLE `platforms_games`  (
   INDEX `book_id`(`game_id`) USING BTREE,
   CONSTRAINT `platforms_games_ibfk_2` FOREIGN KEY (`game_id`) REFERENCES `games` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `platforms_games_ibfk_3` FOREIGN KEY (`platform_id`) REFERENCES `platforms` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE = InnoDB AUTO_INCREMENT = 30750 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 30799 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for producers_films
@@ -358,7 +374,7 @@ CREATE TABLE `producers_films`  (
   INDEX `book_id`(`film_id`) USING BTREE,
   CONSTRAINT `producers_films_ibfk_1` FOREIGN KEY (`person_id`) REFERENCES `persons` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `producers_films_ibfk_2` FOREIGN KEY (`film_id`) REFERENCES `films` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE = InnoDB AUTO_INCREMENT = 22254 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 22537 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for publishers_books
@@ -371,7 +387,7 @@ CREATE TABLE `publishers_books`  (
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `publisher_id`(`company_id`) USING BTREE,
   INDEX `book_id`(`book_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 4910 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 4973 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for publishers_games
@@ -386,7 +402,7 @@ CREATE TABLE `publishers_games`  (
   INDEX `book_id`(`game_id`) USING BTREE,
   CONSTRAINT `publishers_games_ibfk_1` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `publishers_games_ibfk_2` FOREIGN KEY (`game_id`) REFERENCES `games` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE = InnoDB AUTO_INCREMENT = 7047 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 7085 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for relations
@@ -412,7 +428,7 @@ CREATE TABLE `screenwriters_films`  (
   INDEX `book_id`(`film_id`) USING BTREE,
   CONSTRAINT `screenwriters_films_ibfk_1` FOREIGN KEY (`person_id`) REFERENCES `persons` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `screenwriters_films_ibfk_2` FOREIGN KEY (`film_id`) REFERENCES `films` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE = InnoDB AUTO_INCREMENT = 26619 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 26923 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for sections
@@ -458,7 +474,7 @@ CREATE TABLE `writers_books`  (
   INDEX `book_id`(`book_id`) USING BTREE,
   CONSTRAINT `writers_books_ibfk_3` FOREIGN KEY (`book_id`) REFERENCES `books` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `writers_books_ibfk_4` FOREIGN KEY (`person_id`) REFERENCES `persons` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE = InnoDB AUTO_INCREMENT = 20006 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 20041 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for writers_genres
