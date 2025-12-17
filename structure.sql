@@ -3,7 +3,7 @@
  Target Server Version : 50744
  File Encoding         : 65001
 
- Date: 15/07/2025 10:10:05
+ Date: 17/12/2025 09:21:15
 */
 
 SET NAMES utf8mb4;
@@ -20,7 +20,7 @@ CREATE TABLE `actors_films`  (
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `publisher_id`(`person_id`) USING BTREE,
   INDEX `book_id`(`film_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 50291 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 50512 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for albums
@@ -55,7 +55,7 @@ CREATE TABLE `albums_tracks`  (
   `updated_at` timestamp(0) NOT NULL DEFAULT CURRENT_TIMESTAMP(0) ON UPDATE CURRENT_TIMESTAMP(0),
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `album_id`(`album_id`) USING BTREE
-) ENGINE = MyISAM AUTO_INCREMENT = 18693 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = MyISAM AUTO_INCREMENT = 18733 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for bands
@@ -84,7 +84,7 @@ CREATE TABLE `bands_albums`  (
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `publisher_id`(`band_id`) USING BTREE,
   INDEX `book_id`(`album_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 4205 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 4208 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for bands_persons
@@ -143,7 +143,7 @@ CREATE TABLE `companies`  (
   `created_at` timestamp(0) NOT NULL DEFAULT '0000-00-00 00:00:00',
   `updated_at` timestamp(0) NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP(0),
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 2118 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 2128 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for countries
@@ -167,7 +167,7 @@ CREATE TABLE `countries_films`  (
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `country_id`(`country_id`) USING BTREE,
   INDEX `film_id`(`film_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 21528 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 21573 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for developers_games
@@ -180,7 +180,7 @@ CREATE TABLE `developers_games`  (
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `publisher_id`(`company_id`) USING BTREE,
   INDEX `book_id`(`game_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 6465 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 6478 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for directors_films
@@ -193,7 +193,7 @@ CREATE TABLE `directors_films`  (
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `publisher_id`(`person_id`) USING BTREE,
   INDEX `book_id`(`film_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 19043 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 19083 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for elements_collections
@@ -206,7 +206,7 @@ CREATE TABLE `elements_collections`  (
   `element_type` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `art_form_id`(`element_type`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 5594 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 5606 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for elements_genres
@@ -224,7 +224,7 @@ CREATE TABLE `elements_genres`  (
   INDEX `genre_id`(`genre_id`) USING BTREE,
   INDEX `element_id`(`element_id`) USING BTREE,
   INDEX `element_type`(`element_type`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 142185 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 142375 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for elements_relations
@@ -240,7 +240,7 @@ CREATE TABLE `elements_relations`  (
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `relation_id`(`relation_id`) USING BTREE,
   CONSTRAINT `elements_relations_ibfk_1` FOREIGN KEY (`relation_id`) REFERENCES `relations` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE = InnoDB AUTO_INCREMENT = 34427 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 34605 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci;
 
 -- ----------------------------
 -- Table structure for films
@@ -263,7 +263,7 @@ CREATE TABLE `films`  (
   INDEX `alt_name`(`alt_name`) USING BTREE,
   INDEX `year`(`year`) USING BTREE,
   INDEX `verified`(`verified`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 10327 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 10359 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for games
@@ -311,7 +311,7 @@ CREATE TABLE `persons`  (
   `created_at` timestamp(0) NOT NULL DEFAULT CURRENT_TIMESTAMP(0),
   `updated_at` timestamp(0) NOT NULL DEFAULT CURRENT_TIMESTAMP(0) ON UPDATE CURRENT_TIMESTAMP(0),
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 36626 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 36771 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for platforms
@@ -335,7 +335,7 @@ CREATE TABLE `platforms_games`  (
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `genre_id`(`platform_id`) USING BTREE,
   INDEX `book_id`(`game_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 31272 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 31303 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for producers_films
@@ -348,7 +348,7 @@ CREATE TABLE `producers_films`  (
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `publisher_id`(`person_id`) USING BTREE,
   INDEX `book_id`(`film_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 23969 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 24059 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for publishers_books
@@ -361,7 +361,7 @@ CREATE TABLE `publishers_books`  (
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `publisher_id`(`company_id`) USING BTREE,
   INDEX `book_id`(`book_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 5729 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 5793 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for publishers_games
@@ -374,7 +374,7 @@ CREATE TABLE `publishers_games`  (
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `publisher_id`(`company_id`) USING BTREE,
   INDEX `book_id`(`game_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 7409 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 7422 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for relations
@@ -398,7 +398,7 @@ CREATE TABLE `screenwriters_films`  (
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `publisher_id`(`person_id`) USING BTREE,
   INDEX `book_id`(`film_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 28048 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 28121 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for sections
@@ -442,7 +442,7 @@ CREATE TABLE `writers_books`  (
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `writer_id`(`person_id`) USING BTREE,
   INDEX `book_id`(`book_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 20564 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+) ENGINE = InnoDB AUTO_INCREMENT = 20595 CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
 -- ----------------------------
 -- Table structure for writers_genres
